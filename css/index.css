@@ -1,0 +1,10 @@
+@import './dropdown.css';
+
+.explorer {
+  width: 150px;
+}
+
+li {
+  width: 100%;
+  margin-left: 15%;
+}

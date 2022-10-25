@@ -1,0 +1,10 @@
+.dropdown span:hover {
+  cursor: pointer;
+}
+
+.dropdown span ~ .item {
+  display: none;
+}
+.dropdown span.on ~ .item {
+  display: block;
+}

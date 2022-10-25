@@ -5,10 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Bootstrep</title>
-    <link rel="stylesheet" href="./bootstrep/index.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
 
   <body>
-    <script src="./bootstrep/index.js" type="module"></script>
+    <nav>
+      <ul class="dropdown explorer">
+        <span>js</span>
+        <li class="item">
+          <ul class="dropdown">
+            <span>Modules</span>
+            <li class="item">Create.js</li>
+            <li class="item">
+              <ul class="dropdown">
+                <span>User</span>
+                <li class="item">User.js</li>
+                <li class="item">UserFectory.js</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="item">
+          <ul class="dropdown">
+            <span>Migrations</span>
+            <li class="item">UserMigration.js</li>
+          </ul>
+        </li>
+        <li class="item">index.html</li>
+      </ul>
+    </nav>
+
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>
